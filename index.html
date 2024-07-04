@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+
+    <div class="templates" style="display:none;">
+        <section class="menu inactive t">
+            <main class="menu">
+                <h1>Contrato a tiempo parcial</h1>
+                <menu>
+                    <button class="start">Comenzar</button>
+                    <button class="credits-button">Creditos</button>
+                </menu>
+            </main>
+        </section>
+        <section class="exam inactive t">
+            <main>
+                <section class="time-out-bar">
+                    <span class="bar">
+                    </span>
+                    <span class="clock" style="display:grid; place-items: center;">
+                        
+                    </span>
+                </section>
+                <section class="question-mark">
+                    <p class="question"></p>
+                </section>
+                <section class="options-mark">
+                    <ol class="options"></ol>
+                </section>
+            </main>
+            <nav>
+                <button class="quit">Rendirse</button>
+                <button class="next">Continuar</button>
+            </nav>
+        </section>
+        <section class="result inactive t">
+            <main class="result">
+                <h1 style="text-align: center;">Resultados</h1>
+                <span class="nota" style="text-align: center;">
+                    
+                </span>                
+                <button class="retry">Reintentar</button>
+                <button class="back">Menu</button>
+                <button class="credits-result">Creditos</button>
+            </main>
+        </section>
+        <section class="credits inactive t">
+            <main class="credits" style="padding: 2ch; display: flex; text-align: center; align-items: center; flex-direction: column;">
+                <h1>Creditos</h1>
+
+                <ol>
+                    <li>Callizaya Wendy</li>
+                    <li>Martinez Walter</li>
+                    <li>Balaiche Mijail</li>
+                    <li>Rapela Joaquin</li>
+                </ol>
+                <button class="back" style="width: fit-content;">
+                    Volver
+                </button>
+            </main>
+        </section>
+    </div>
+    <script>
+        
+console.log(document.querySelector("section.exam"));
+console.log(document.querySelector("section.menu"));
+
+    </script>
+</body>
+</html>
